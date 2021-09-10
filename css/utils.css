@@ -5,7 +5,7 @@ body {
   margin: 0;
   position: relative;
 }
-.main__wrapper {
+body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -63,6 +63,7 @@ button:focus {
   outline: none;
 }
 .container {
+  width: 100%;
   padding: 5rem 2rem;
   max-width: 120rem;
   margin-left: auto;
